@@ -1,8 +1,8 @@
 package bootstrap
 
 import (
-	"blog-server/core"
 	"blog-server/global"
+	"blog-server/internal/core"
 )
 
 func Initialize() {

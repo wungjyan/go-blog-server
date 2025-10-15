@@ -2,7 +2,7 @@ package core
 
 import (
 	"blog-server/config"
-	"blog-server/core/internal"
+	"blog-server/internal"
 	"flag"
 	"fmt"
 	"os"
