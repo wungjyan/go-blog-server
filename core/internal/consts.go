@@ -6,8 +6,8 @@ const (
 	ConfigEnv = "CONFIG_PATH"
 
 	// 不同模式下的配置文件
-	ConfigDebugFile   = "config.debug.yaml"
-	ConfigReleaseFile = "config.release.yaml"
-	ConfigTestFile    = "config.test.yaml"
+	ConfigDebugFile   = "config/config.debug.yaml"
+	ConfigReleaseFile = "config/config.release.yaml"
+	ConfigTestFile    = "config/config.test.yaml"
 	ConfigDefaultFile = "config/config.yaml"
 )
