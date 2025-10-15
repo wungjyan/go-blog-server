@@ -11,4 +11,15 @@ type Config struct {
 		Username string
 		Password string
 	}
+	Log struct {
+		Level      string
+		FilePath   string
+		MaxSize    int
+		MaxBackups int
+		MaxAge     int
+		Compress   bool
+		Format     string
+		ShowCaller bool
+		Console    bool
+	}
 }
